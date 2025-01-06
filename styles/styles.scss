@@ -1,0 +1,24 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    width: 18rem;
+    margin: 1rem;
+    transition: transform 0.3s ease;
+
+    & img{
+        width: 100%;
+        height: auto;
+    }
+
+    & .card-text,
+    & .modal-body {
+        text-align: justify;
+    }
+    
+    &:hover {
+        transform: scale(1.05);
+      }
+}
